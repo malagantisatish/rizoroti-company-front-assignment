@@ -1,0 +1,60 @@
+.login-form-container{
+min-height:100vh;
+width:100vw;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.login-form{
+height:60%;
+width:60%;
+background-color:lightgrey;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius:8px;
+padding:10px;
+}
+
+
+.login-heading{
+color:blue;
+font-family: "Bree Serif";
+font-size:28px;
+}
+
+.label-text{
+   font-size:20px;
+   font-family:"Roboto";
+   align-self: flex-start;
+   padding-left:10px;
+ 
+
+}
+
+.input-value{
+    height:38px;
+    width:95%;
+    border-radius:5px
+}
+
+.input-value:hover{
+    background-color:black;
+    color:white;
+}
+
+.login-btn{
+    height:50px;
+    width:120px;
+    background-color:blue;
+    color:white;
+    border-width:0px;
+    border-radius:8px;
+}
+
+.login-btn:hover{
+background-color:green;
+}

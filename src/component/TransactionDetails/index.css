@@ -1,0 +1,16 @@
+.transection-row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:skyblue;
+    margin:2px;
+    color:white;
+    border-radius:4px;
+
+}
+
+.trans{
+    padding:5px;
+    font-family: "Roboto";
+    font-size:18px;
+}
